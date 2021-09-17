@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+#fundo-jogo {
+    width: 450px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+#fundo-jogo>div {
+    height: 150px;
+    color: #eee;
+    font-size: 60px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    background: #eee;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
